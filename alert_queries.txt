@@ -1,0 +1,4 @@
+1. Failed Windows Login: index=win_logs EventCode=4625 | stats count by user, host
+2. Suspicious Windows Login: index=win_logs EventCode=4624 | lookup iplocation clientip | where Country != "Nigeria"
+3. Syslog Anomaly: index=syslog | timechart count span=1m | where count > 100
+4. SSH Brute Force: index=syslog sourcetype=sshd "Failed password" | stats count by src_ip
