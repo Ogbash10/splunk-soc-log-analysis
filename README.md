@@ -6,9 +6,9 @@ This project showcases several real-time security alerts and dashboards configur
 - **Failed Windows Login Alert**
 - **Suspicious Windows Login Alert**
 - **Syslog Anomaly Detection (Ubuntu)**
-- **SSH Brute Force Detection Alert** (placeholder)
+- **SSH Brute Force Detection Alert** 
 
-## 📊 Dashboards (Placeholder Previews)
+## 📊 Dashboards 
 - Windows Failed Logins
 - Suspicious Login Location Mapping
 - Syslog Spike Analytics
